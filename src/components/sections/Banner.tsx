@@ -1,7 +1,7 @@
 const Banner = () => {
   return (
     <section aria-labelledby="Banner" className="px-12 py-0">
-      <div className="bg-banner-img relative flex h-[500px] items-center rounded-3xl bg-cover bg-no-repeat">
+      <div className="relative flex h-[550px] items-center rounded-3xl bg-banner-img bg-cover bg-no-repeat">
         <div className="container">
           <div className="flex w-[45%] flex-col">
             <h1 className="mb-8 text-5xl">

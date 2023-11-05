@@ -1,11 +1,34 @@
 export { default as aboutImg } from "../../assets/about-img.jpg";
 export { default as bannerImg } from "../../assets/banner.jpg";
+export { default as blog1 } from "../../assets/blog-01.jpg";
+export { default as blog2 } from "../../assets/blog-02.jpg";
+export { default as blog3 } from "../../assets/blog-03.jpg";
 export { default as listing1 } from "../../assets/listing-01.jpg";
 export { default as listing2 } from "../../assets/listing-02.jpg";
 export { default as listing3 } from "../../assets/listing-03.jpg";
 export { default as logo } from "../../assets/logo.png";
+export { default as property01 } from "../../assets/property-01.jpg";
+export { default as property02 } from "../../assets/property-02.jpg";
+export { default as property03 } from "../../assets/property-03.jpg";
+export { default as property04 } from "../../assets/property-04.jpg";
+export { default as property05 } from "../../assets/property-05.jpg";
+export { default as property06 } from "../../assets/property-06.jpg";
+export { default as property07 } from "../../assets/property-07.jpg";
+export { default as property08 } from "../../assets/property-08.jpg";
+export { default as property09 } from "../../assets/property-09.jpg";
+export { default as property10 } from "../../assets/property-10.jpg";
+export { default as property11 } from "../../assets/property-11.jpg";
+export { default as property12 } from "../../assets/property-12.jpg";
+export { default as user1 } from "../../assets/user1.jpg";
+export { default as user2 } from "../../assets/user2.jpg";
+export { default as user3 } from "../../assets/user3.jpg";
+export { default as user4 } from "../../assets/user4.jpg";
+export { default as user5 } from "../../assets/user5.jpg";
+export { default as user6 } from "../../assets/user6.jpg";
 
 export { default as Button } from "../layouts/Button.tsx";
+export { default as SectionHeading } from "../layouts/SectionHeading.tsx";
+export { default as ServiceItem } from "../layouts/ServiceItem.tsx";
 
 export { default as AboutUs } from "../sections/AboutUs.tsx";
 export { default as Banner } from "../sections/Banner.tsx";

@@ -1,5 +1,11 @@
 import { Link } from "react-router-dom";
-import { listing1, listing2, listing3 } from "../utils/helper";
+import {
+  Button,
+  SectionHeading,
+  listing1,
+  listing2,
+  listing3,
+} from "../utils/helper";
 
 const ExploreAreas = () => {
   return (
@@ -7,13 +13,17 @@ const ExploreAreas = () => {
       <div className="bg-secondary-400 py-12">
         <div className="d-flex container">
           <div className="w-[35%]">
-            <span className="text-sm">POPULAR AREAS</span>
-            <h2 className="py-4 text-3xl">Explore most popular areas</h2>
-            <p>
+            <SectionHeading
+              superHeading="POPULAR AREAS"
+              heading1="Explore"
+              heading2="most popular areas"
+            />
+            <p className="mb-8">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nemo
               aspernatur impedit. Sequi adipisci dignissimos similique? Eos
               aspernatur deleniti maiores!
             </p>
+            <Button btnText="Explore" target="#!" />
           </div>
           <div className="d-flex w-[60%] gap-4">
             <Link to="#!" className="listing">

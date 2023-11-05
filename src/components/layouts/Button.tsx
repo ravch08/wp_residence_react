@@ -1,8 +1,14 @@
-const Button = ({ btnText }) => {
+import { Link } from "react-router-dom";
+import { ButtonProps } from "../../types/types";
+
+const Button = ({ btnText, target }: ButtonProps) => {
   return (
-    <button className="bg-primary-800 hover:bg-primary-100 inline-block rounded-md px-10 py-3 text-white transition-colors duration-500 ease-in-out">
+    <Link
+      to={target}
+      className="inline-block rounded-md bg-primary-800 px-10 py-3 text-white transition-colors duration-500 ease-in-out hover:bg-primary-100"
+    >
       {btnText}
-    </button>
+    </Link>
   );
 };
 
