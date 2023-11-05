@@ -48,6 +48,7 @@ section {
 }
 
 .listing {
+  cursor: pointer;
   position: relative;
 }
 
@@ -63,6 +64,14 @@ section {
   background-color: hsla(0, 0%, 0%, 0.5);
   transition: background-color 0.5s ease-in-out;
   @apply rounded-md;
+}
+
+header {
+  @apply bg-white transition-all duration-500 ease-in-out;
+}
+
+header.sticky {
+  @apply fixed left-0 top-0 z-50 w-full pb-3 shadow-xl;
 }
 
 .listing:hover::after {
@@ -82,4 +91,12 @@ p {
 }
 .active {
   @apply border-primary-400 text-primary-100;
+}
+
+.scrollToTop {
+  @apply fixed bottom-8 right-8 flex h-12 w-12 scale-0 cursor-pointer items-center justify-center rounded-full bg-primary-100 shadow-md transition-all duration-500 ease-in-out hover:bg-primary-400;
+}
+
+.scrollToTop.show {
+  @apply scale-100;
 }

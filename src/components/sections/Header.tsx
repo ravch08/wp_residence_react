@@ -1,9 +1,23 @@
+import { useEffect, useState } from "react";
+
 import { Link, NavLink } from "react-router-dom";
 import { logo } from "../utils/helper";
 
 const Header = () => {
+  const [sticker, setSticker] = useState("");
+
+  const stickyHandler = () => {
+    const stickyClass = window.scrollY > 150 ? "sticky" : "";
+    setSticker(stickyClass);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", stickyHandler);
+    return () => window.removeEventListener("scroll", stickyHandler);
+  }, []);
+
   return (
-    <header>
+    <header className={sticker}>
       <div className="d-flex container">
         <Link to="/">
           <img src={logo} alt="wp residence" />
@@ -11,7 +25,7 @@ const Header = () => {
 
         <nav
           aria-labelledby="Primary Navigation"
-          className="d-flex font-roboto-sans gap-2 font-[500]"
+          className="d-flex gap-2 font-roboto-sans font-[500]"
         >
           <NavLink to="/" className="navlink">
             Home
@@ -33,7 +47,7 @@ const Header = () => {
         <div className="d-flex gap-4">
           <a href="tel:800-555-6789" className="d-flex gap-2">
             <svg
-              className="fill-primary-400 h-4 w-4"
+              className="h-4 w-4 fill-primary-400"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -49,7 +63,7 @@ const Header = () => {
 
           <div className="cursor-pointer">
             <svg
-              className="fill-primary-400 h-6 w-6"
+              className="h-6 w-6 fill-primary-400"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >

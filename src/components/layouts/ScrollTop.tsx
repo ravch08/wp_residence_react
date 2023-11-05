@@ -1,21 +1,36 @@
+import { useEffect, useState } from "react";
+
+import { ScrollTopProps } from "../../types/types";
+
 const ScrollTop = () => {
-  const scrollToTop = () => {
+  const [scroller, setScroller] = useState("");
+
+  const scrollHandler = () => {
+    const scrollClass = window.scrollY > 150 ? "show" : "";
+    setScroller(scrollClass);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", scrollHandler);
+    return () => window.removeEventListener("scroll", scrollHandler);
+  }, []);
+
+  const scrollToTop: ScrollTopProps = () => {
     window.scrollTo({
       top: 0,
       behavior: "smooth",
     });
   };
 
+  const scrollClass = `scrollToTop ${scroller}`;
+
   return (
-    <div
-      onClick={scrollToTop}
-      className="fixed bottom-8 right-8 flex h-12 w-12 cursor-pointer items-center justify-center rounded-full bg-primary-100 shadow-md transition-colors duration-500 ease-in-out hover:bg-primary-400"
-    >
+    <div onClick={scrollToTop} className={scrollClass}>
       <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24"
         fill="white"
+        viewBox="0 0 24 24"
         className="h-4 w-4"
+        xmlns="http://www.w3.org/2000/svg"
       >
         <path
           fillRule="evenodd"

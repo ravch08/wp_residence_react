@@ -1,10 +1,9 @@
-import { Link } from "react-router-dom";
 import { BlogProps } from "../../types/types";
 import { ButtonText } from "../utils/helper";
 
 const BlogItem = (props: BlogProps) => {
   return (
-    <Link to="#!" className="listing w-[22%]">
+    <div className="listing w-[22%]">
       <img
         src={props.imgSrc}
         alt={props.title}
@@ -14,7 +13,7 @@ const BlogItem = (props: BlogProps) => {
         <h3 className="mb-4">{props.title}</h3>
         <ButtonText btnText={props.btnText} target={props.target} />
       </div>
-    </Link>
+    </div>
   );
 };
 
