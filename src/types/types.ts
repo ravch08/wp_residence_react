@@ -36,3 +36,12 @@ export type BlogProps = {
   imgSrc: string;
   btnText: string;
 };
+
+export type SocialIconProps = {
+  Facebook: string;
+  LinkedIn: string;
+  Instagram: string;
+  Twitter: string;
+};
+
+export type ScrollTopProps = () => void;

@@ -78,8 +78,8 @@ p {
 }
 
 .navlink {
-  @apply hover:text-primary-100 border-t-4 border-transparent px-4 py-10 text-sm transition-colors ease-in-out;
+  @apply border-t-4 border-transparent px-4 py-10 text-sm transition-colors ease-in-out hover:text-primary-100;
 }
 .active {
-  @apply text-primary-100 border-primary-400;
+  @apply border-primary-400 text-primary-100;
 }

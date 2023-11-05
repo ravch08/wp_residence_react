@@ -31,8 +31,10 @@ export { default as BlogItem } from "../layouts/BlogItem.tsx";
 export { default as Button } from "../layouts/Button.tsx";
 export { default as ButtonText } from "../layouts/ButtonText.tsx";
 export { default as Rating } from "../layouts/Rating.tsx";
+export { default as ScrollTop } from "../layouts/ScrollTop.tsx";
 export { default as SectionHeading } from "../layouts/SectionHeading.tsx";
 export { default as ServiceItem } from "../layouts/ServiceItem.tsx";
+export { default as SocialIcons } from "../layouts/SocialIcons.tsx";
 export { default as TestimonialItem } from "../layouts/TestimonialItem.tsx";
 
 export { default as AboutUs } from "../sections/AboutUs.tsx";
