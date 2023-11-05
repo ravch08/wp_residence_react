@@ -1,4 +1,15 @@
-import { user1, user2, user3, user4, user5, user6 } from "./helper";
+import {
+  blog1,
+  blog2,
+  blog3,
+  blog4,
+  user1,
+  user2,
+  user3,
+  user4,
+  user5,
+  user6,
+} from "./helper";
 
 export const serviceItems = [
   {
@@ -175,5 +186,36 @@ export const testimonialItems = [
       "His professionalism, personality, attention to detail, responsiveness and his ability to close the deal was Outstanding",
     rating: 4,
     designation: "Sales Manager",
+  },
+];
+
+export const blogItems = [
+  {
+    id: 1,
+    imgSrc: blog1,
+    target: "#!",
+    btnText: "Continue reading",
+    title: "Top 10 best appreciating condos in Las Vegas...",
+  },
+  {
+    id: 2,
+    imgSrc: blog2,
+    target: "#!",
+    btnText: "Continue reading",
+    title: "The top 5 most livable Las Vegas neighbourhood...",
+  },
+  {
+    id: 3,
+    imgSrc: blog3,
+    target: "#!",
+    btnText: "Continue reading",
+    title: "In Las Vegas home prices have doubled in the...",
+  },
+  {
+    id: 4,
+    imgSrc: blog4,
+    target: "#!",
+    btnText: "Continue reading",
+    title: "Las Vegas neighbourhoods where it’s better...",
   },
 ];

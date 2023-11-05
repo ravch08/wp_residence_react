@@ -28,3 +28,11 @@ export type TestimonialProps = {
 export type RatingProps = {
   rating: number;
 };
+
+export type BlogProps = {
+  id?: number;
+  title: string;
+  target: string;
+  imgSrc: string;
+  btnText: string;
+};

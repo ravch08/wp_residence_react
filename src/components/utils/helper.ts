@@ -3,6 +3,7 @@ export { default as bannerImg } from "../../assets/banner.jpg";
 export { default as blog1 } from "../../assets/blog-01.jpg";
 export { default as blog2 } from "../../assets/blog-02.jpg";
 export { default as blog3 } from "../../assets/blog-03.jpg";
+export { default as blog4 } from "../../assets/blog-04.jpg";
 export { default as listing1 } from "../../assets/listing-01.jpg";
 export { default as listing2 } from "../../assets/listing-02.jpg";
 export { default as listing3 } from "../../assets/listing-03.jpg";
@@ -26,7 +27,9 @@ export { default as user4 } from "../../assets/user4.jpg";
 export { default as user5 } from "../../assets/user5.jpg";
 export { default as user6 } from "../../assets/user6.jpg";
 
+export { default as BlogItem } from "../layouts/BlogItem.tsx";
 export { default as Button } from "../layouts/Button.tsx";
+export { default as ButtonText } from "../layouts/ButtonText.tsx";
 export { default as Rating } from "../layouts/Rating.tsx";
 export { default as SectionHeading } from "../layouts/SectionHeading.tsx";
 export { default as ServiceItem } from "../layouts/ServiceItem.tsx";

@@ -11,7 +11,7 @@ const Services = () => {
             heading1="Top Real Estate"
             heading2="services available"
           />
-          <div className="mt-8 flex flex-wrap items-center justify-between gap-8">
+          <div className="mt-12 flex flex-wrap items-center justify-between gap-8">
             {serviceItems?.map((item) => (
               <ServiceItem
                 key={item.id}

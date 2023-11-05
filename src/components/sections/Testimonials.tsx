@@ -10,7 +10,7 @@ const Testimonials = () => {
           heading1="What are our clients"
           heading2="saying about us"
         />
-        <div className="d-flex mt-6 flex-wrap gap-8">
+        <div className="d-flex mt-12 flex-wrap gap-8">
           {testimonialItems?.map((item) => (
             <TestimonialItem
               key={item.id}
