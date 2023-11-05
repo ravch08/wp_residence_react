@@ -27,8 +27,10 @@ export { default as user5 } from "../../assets/user5.jpg";
 export { default as user6 } from "../../assets/user6.jpg";
 
 export { default as Button } from "../layouts/Button.tsx";
+export { default as Rating } from "../layouts/Rating.tsx";
 export { default as SectionHeading } from "../layouts/SectionHeading.tsx";
 export { default as ServiceItem } from "../layouts/ServiceItem.tsx";
+export { default as TestimonialItem } from "../layouts/TestimonialItem.tsx";
 
 export { default as AboutUs } from "../sections/AboutUs.tsx";
 export { default as Banner } from "../sections/Banner.tsx";

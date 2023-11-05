@@ -15,3 +15,16 @@ export type ServiceItemProps = {
   description: string;
   svg: JSX.Element;
 };
+
+export type TestimonialProps = {
+  id?: number;
+  imgSrc: string;
+  userName: string;
+  quote: string;
+  rating: number;
+  designation: string;
+};
+
+export type RatingProps = {
+  rating: number;
+};

@@ -1,3 +1,5 @@
+import { user1, user2, user3, user4, user5, user6 } from "./helper";
+
 export const serviceItems = [
   {
     id: 1,
@@ -116,5 +118,62 @@ export const serviceItems = [
         <path d="m23 50h2v2h-2z"></path>
       </svg>
     ),
+  },
+];
+
+export const testimonialItems = [
+  {
+    id: 1,
+    imgSrc: user1,
+    userName: "Dana Gilmore",
+    quote:
+      "The WP Estate team did an outstanding job helping me buy my first home. The high level of service and dedication.",
+    rating: 5,
+    designation: "Sales Manager",
+  },
+  {
+    id: 2,
+    imgSrc: user2,
+    userName: "Susan Barkley",
+    quote:
+      "The WP Estate team did an outstanding job helping me buy my first home. The high level of service and dedication.",
+    rating: 5,
+    designation: "Sales Manager",
+  },
+  {
+    id: 3,
+    imgSrc: user3,
+    userName: "Lisa Simpson",
+    quote:
+      "We hired the WP Estate team as our buyer agent because they are specifically trained in Short Sale & Foreclosure.",
+    rating: 4,
+    designation: "Sales Manager",
+  },
+  {
+    id: 4,
+    imgSrc: user4,
+    userName: "Anna McKenzie",
+    quote:
+      "As I move forward to now BUY my next house, I am extremely certain Residence will be the right partner to help me.",
+    rating: 4,
+    designation: "Sales Manager",
+  },
+  {
+    id: 5,
+    imgSrc: user5,
+    userName: "Stephanie Barkley",
+    quote:
+      "The sale went smoothly, and we just closed on an ideal new place we're excited to call home.",
+    rating: 5,
+    designation: "Sales Manager",
+  },
+  {
+    id: 6,
+    imgSrc: user6,
+    userName: "Janine Royce",
+    quote:
+      "His professionalism, personality, attention to detail, responsiveness and his ability to close the deal was Outstanding",
+    rating: 4,
+    designation: "Sales Manager",
   },
 ];
