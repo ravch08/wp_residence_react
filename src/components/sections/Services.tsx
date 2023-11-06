@@ -3,7 +3,7 @@ import { SectionHeading, ServiceItem } from "../utils/helper";
 
 const Services = () => {
   return (
-    <section aria-labelledby="Our Services" className="mx-12">
+    <section aria-labelledby="Our Services" className="mx-12 pt-4">
       <div className="rounded-3xl bg-secondary-400 pt-12">
         <div className="container translate-y-20">
           <SectionHeading

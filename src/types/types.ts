@@ -45,3 +45,20 @@ export type SocialIconProps = {
 };
 
 export type ScrollTopProps = () => void;
+
+export type PropertyProps = {
+  id?: number;
+  title: string;
+  location: string;
+  price: number;
+  target: string;
+  description: string;
+  bedroom: number;
+  bathroom: number;
+  area: number;
+  propertyImgSrc: string;
+  userImgSrc: string;
+  userName: string;
+  featured: boolean;
+  badge: string;
+};
