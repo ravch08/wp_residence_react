@@ -9,8 +9,8 @@ import {
 
 const ExploreAreas = () => {
   return (
-    <section aria-labelledby="Explore Popular Areas" className="pt-0">
-      <div className="bg-secondary-400 py-20">
+    <section aria-labelledby="Explore Popular Areas" className="mx-12 pt-0">
+      <div className="rounded-3xl bg-secondary-400 py-20">
         <div className="d-flex container">
           <div className="w-[35%]">
             <SectionHeading

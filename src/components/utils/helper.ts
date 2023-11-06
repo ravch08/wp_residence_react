@@ -30,6 +30,7 @@ export { default as user6 } from "../../assets/user6.jpg";
 export { default as BlogItem } from "../layouts/BlogItem.tsx";
 export { default as Button } from "../layouts/Button.tsx";
 export { default as ButtonText } from "../layouts/ButtonText.tsx";
+export { default as ContactForm } from "../layouts/ContactForm.tsx";
 export { default as Rating } from "../layouts/Rating.tsx";
 export { default as ScrollTop } from "../layouts/ScrollTop.tsx";
 export { default as SectionHeading } from "../layouts/SectionHeading.tsx";
